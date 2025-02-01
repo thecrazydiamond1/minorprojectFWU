@@ -1,0 +1,502 @@
+/* Base styles (your existing styles remain unchanged) */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.navbar {
+    width: 17.8%;
+    background-color: #804ad7; /* Deep purple */
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar .icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.navbar .icon .logo {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar .menu ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+.navbar .menu p{
+      font-size:15px;
+      
+      font-style: italic;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+      color: black;
+      font-weight:50px;
+    
+}
+
+
+
+
+
+.navbar .menu ul li {
+    margin-bottom: 10px;
+}
+
+.navbar .menu ul li a {
+    color: white;
+    text-decoration:underline;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+ .tagline {
+    margin-bottom: 1%;
+    margin-left: 10px;
+    text-decoration:overline;
+    color: rgb(7, 5, 5);
+    font-style: italic;
+    font-weight: bold;
+    /* color:  rgb(187, 185, 185); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 13.5px;
+}
+
+
+.upper {
+    margin-left: 7%;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    height: 531.5px;
+}
+
+.upper img {
+    width: 154%;
+    height: 80%;
+    /* object-fit: cover; */
+}
+
+.upper #id1,
+.upper #id2 {
+    position: absolute;
+    width: 100%;
+    left: 65%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    text-align: center;
+}
+
+#id1 {
+    top: 35%;
+}
+
+#id2 {
+    top: 45%;
+}
+
+.login-container {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    height: auto;
+    width: 14%;
+    background-color: rgb(187, 185, 185);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h3 {
+    margin-top: 0px;
+    text-align: center;
+    
+}
+.login-container input[type="text"]
+.login-container input[type="email"]
+.login-container input[type="password"]
+ {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 5px;
+    background-color: #4b0082; /* Deep purple background */
+    color: white;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #3a0066; /* Darker shade of purple */
+    
+}
+
+/* Forgot Password Form Styling */
+.forgot-password {
+    width: 100%;
+    position: absolute;
+    top:20px;
+    right: 10px;
+    max-width: 200px;
+    margin: 50px auto;
+    background-color: rgb(187, 185, 185);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.forgot-password h2 {
+    color: #4b0082; /* Deep purple */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.forgot-password label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.forgot-password input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.forgot-password button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4b0082; /* Deep purple */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.forgot-password button:hover {
+    background-color: #3a0066; /* Darker shade of purple */
+}
+
+.forgot-password p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.forgot-password p[style="color: green"] {
+    color: green;
+}
+
+.forgot-password p[style="color: red"] {
+    color: red;
+}
+
+/* Responsive styles for Forgot Password */
+@media (max-width: 768px) {
+    .forgot-password {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .forgot-password {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+.create-account {
+    position: absolute;
+    right: 2px;
+    margin-top: 50px;
+    /* background-color: #ffffff; */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    margin-left: 6%;
+    bottom: 150px;
+    padding: px;
+    height: 20px;
+    /* width: 490px; */
+    /* text-align: center; */
+}
+.create-account1 {
+    position: absolute;
+    right: 2px;
+    margin-top: 0px;
+    /* background-color: #ffffff; */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    margin-left: 6%;
+    top: 0px;
+    padding: 150px;
+    padding-top: 0px;
+    height: 20px;
+    /* width: 490px; */
+    /* text-align: center; */
+}
+
+.fillup{
+    top: 0px;
+    right: 10px;
+    height: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: large;
+    width: 100%;
+    background-color:#804ad7;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.create-account1 input[type="text"],
+.create-account1 input[type="email"],
+.create-account1 input[type="password"]
+{
+    width: 80%;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans' ;
+    margin-left: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  
+}
+
+.photo{
+
+    display:flex;
+    gap:100px;
+    justify-content: space-between;
+    label{display:block}
+
+}
+
+.create-account p {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-weight:499;
+    font-size: 16px;
+    background-color:#ffffff
+
+}
+.create-account1 h1, h2, h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    position: relative;
+    
+
+}
+
+
+.create-account button {
+    padding: 10px 20px;
+    background-color:#804ad7; /* Deep purple background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-account1 button{
+    padding: 20px 100px;
+    background-color:#28a745; /* Deep purple background */
+    color: black;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    /* font-weight: 900; */
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.checkbox{
+
+    display:flex;
+    gap:100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    font-size: large;
+    margin-top: 30px;
+    justify-content: space-between;
+    label{display:block}
+    
+}
+.create-account button:hover {
+    background-color: #3a0066; /* Darker shade of purple */
+}
+
+.content {
+    margin-left: 7%;
+    margin-top: 30px;
+    position: relative;
+    bottom: 200px;
+    padding: 10px;
+    color: black;
+    height: 100px;
+    width: 440px;
+    background-color: #ffffff;
+    border-color: black;
+    text-align: center;
+}
+
+.content p {
+    font-size: 15.5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-weight: bold;
+    
+    background-color: #ffffff
+    
+}
+
+.content h1 {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    /* margin: 20px 0; */
+    margin-left:0%;
+    background-color: #ffffff;
+}
+
+
+.Apply form {
+    display: flex;
+    flex-direction: column;
+}
+.Apply input,
+.Apply textarea {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 16px;
+    resize: vertical; /* Allow resizing on y-axis */
+      
+    overflow-x: auto;     /* Allow horizontal scrolling if the text is too long */
+    
+
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .navbar {
+        width: 20%; /* Slightly larger on smaller screens */
+    }
+
+    .upper {
+        margin-left: 15%;
+        width: 85%;
+    }
+
+    .login-container {
+        width: 25%;
+    }
+
+    .content {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        width: 25%;
+    }
+
+    .upper {
+        margin-left: 10%;
+        width: 90%;
+    }
+
+    .login-container {
+        width: 30%;
+    }
+
+    .content {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        width: 30%;
+    }
+
+    .upper {
+        margin-left: 5%;
+        width: 95%;
+    }
+
+    .login-container {
+        width: 40%;
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        width: 40%;
+    }
+
+    .login-container {
+        width: 60%;
+    }
+
+    .content {
+        height: auto; /* Adjust height for smaller screens */
+        width: 100%;
+    }
+}

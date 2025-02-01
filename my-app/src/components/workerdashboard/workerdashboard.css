@@ -1,0 +1,43 @@
+.worker-dashboard {
+    /* padding-top: 10px; */
+    width:100vw;
+    overflow: hidden;
+  
+    /* width:auto; */
+    background-color: antiquewhite;
+    
+    
+}
+.button-container{
+    padding-top: 5px;
+   
+    margin-left: 9%;
+    right: 10px;
+    height: auto;
+    width: 100%;
+    background-color:#804ad7;
+
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.worker-dashboard h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    margin-top:2px;
+    /* background-color: #804ad7; */
+    width: 100%;
+   /* padding:20px; */
+   margin-left:9%;
+   /* background-image:url("../assests/rectangle.jpg"); */
+
+}  
+
+.handshake1{
+    margin-right: 4%;
+    width: 90%;
+    
+    margin-left: 14.2%;
+}
+

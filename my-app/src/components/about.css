@@ -1,0 +1,111 @@
+.about-container {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-color: #f4f0fa; /* Light purple background */
+    color: #4a148c; /* Dark purple text */
+    padding: 20px;
+    
+    margin: auto;
+   margin-top:750px;
+   margin-left:250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Header */
+.about-header h1 {
+    font-size: 2.5rem;
+    color: black; /* Dark purple */
+    margin-bottom: 1rem;
+}
+
+.about-header p {
+    font-size: 1.2rem;
+    color: black; /* Medium purple */
+}
+
+/* About Details */
+.about-details h2 {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: black; /* Medium purple */
+    margin-top: 2rem;
+}
+
+.about-details p {
+    font-size: 1rem;
+    color:black; /* Darker purple for text */
+    margin-top: 1rem;
+}
+
+/* How It Works Section */
+.how-it-works h2 {
+    font-size: 2rem;
+    color: black;
+    margin-top: 2rem;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.step {
+    border: 1px solid #ce93d8; /* Light purple border */
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #e1bee7; /* Light purple background */
+    box-shadow: 0 4px 8px rgba(76, 0, 130, 0.1); /* Subtle shadow */
+}
+
+.step h3 {
+    margin-bottom: 1rem;
+    color: #4a148c;
+}
+
+.step p {
+    font-size: 1rem;
+    color: #4e156c;
+}
+
+/* Team Section */
+.about-team h2 {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: #7b1fa2;
+    margin-top: 2rem;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 220px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.member img {
+    width: 80px;
+    height: 120px; /* Maintain a rectangular aspect ratio */
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Optional: for slightly rounded corners */
+}
+
+.member h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.member p {
+    font-size: 14px;
+    color: #777;
+}
+
+

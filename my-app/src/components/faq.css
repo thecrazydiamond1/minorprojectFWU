@@ -1,0 +1,44 @@
+.faq-container {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-color: #f4f0fa; /* Light purple background */
+    color: #4a148c; /* Dark purple text */
+    padding: 20px;
+    
+    margin: auto;
+   margin-top:550px;
+   margin-left:250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-container h1 {
+    font-size: 2.5rem;
+    color: #4a148c; /* Dark purple */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.faq-section {
+    margin-bottom: 1.5rem;
+}
+
+.faq-section h3 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: black; /* Medium purple */
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+}
+
+.faq-section p {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #4e156c; /* Darker purple */
+    line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+    .faq-container {
+        padding: 3rem;
+    }
+}

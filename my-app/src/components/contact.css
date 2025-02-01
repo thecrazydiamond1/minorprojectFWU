@@ -1,0 +1,87 @@
+
+.container2 {
+    display: fixed;
+    width: 200%;
+
+    margin-top: 100px;
+}
+
+
+
+.main-content {
+    width: 70%;
+    padding: 40px;
+    background-color: #f2f3f5;
+}
+
+.main-content h2 {
+    font-size: 28px;
+}
+
+.main-content form {
+    margin-top: 20px;
+}
+
+.main-content form input,
+.main-content form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.main-content form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #8B78E6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-content form button:hover {
+    background-color: #804ad7;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.fa {
+    padding: 3px;
+    font-size: 50px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);;
+    color:white;
+  }
+
+  .fa-linkedin{
+    background: #55ACEE;
+    color: white;
+  }

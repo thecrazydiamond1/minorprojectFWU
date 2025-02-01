@@ -1,0 +1,127 @@
+/* Body CSS to ensure the page fills the whole viewport */
+ /* body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  background-color: #f0f0f0; /* Optional background for the whole page */
+
+
+ 
+
+/* Container for the entire testimonial section */
+.testimonial-section {
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 80vh; /* Restrict to 80% of viewport height */
+  overflow-y: auto; /* Allow vertical scrolling */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  box-sizing: border-box;
+}
+
+/* Styling for the testimonial form */
+.testimonial-form {
+  margin-bottom: 30px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.testimonial-form label {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.testimonial-form textarea,
+.testimonial-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.testimonial-form button {
+  padding: 10px 20px;
+  background-color: #4b0082;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.testimonial-form button:hover {
+  background-color: #3a0066;
+}
+
+/* Styling for the list of testimonials */
+.testimonials-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.testimonials-list li {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.testimonials-list li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styling for the content inside each testimonial */
+.testimonials-list p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.testimonials-list small {
+  display: block;
+  margin-top: 8px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  font-size: 14px; /* Increase the font size */
+  
+}
+
+.testimonials-list a {
+  color: #4b0082;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.testimonials-list a:hover {
+  text-decoration: underline;
+}
+
+.test{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+      color: #4b0082;
+      text-decoration: underline;
+
+}
